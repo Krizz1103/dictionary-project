@@ -1,5 +1,5 @@
 import "./App.css";
-import Dictionary from "./Dictionary";
+import Dictionary2 from "./Dictionary2";
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
         <header className="App-header">Dictionary</header>
         <h2>What word are you looking for?</h2>
         <main>
-          <Dictionary />
+          <Dictionary2 />
         </main>
         <footer className="App-footer">
           <small>Coded by Kristin Kessler</small>
