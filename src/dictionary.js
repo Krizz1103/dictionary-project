@@ -9,6 +9,7 @@ export default function Dictionary() {
     console.log(reponse.data);
   }
 
+  //https://www.shecodes.io/learn/apis/dictionary/
   function search(event) {
     event.preventDefault();
 
