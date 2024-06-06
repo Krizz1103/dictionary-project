@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import "./Dictionary.css";
 import axios from "axios";
+import Results from "./Results";
+import "./Dictionary.css";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState(null);
 
-  function handleResponse(reponse) {
-    console.log(reponse.data);
+  function handleResponse(response) {
+    setResults(response.data);
   }
 
   //https://www.shecodes.io/learn/apis/dictionary/
@@ -33,6 +35,7 @@ export default function Dictionary() {
           autoFocus={true}
         />
       </form>
+      <Results results={results} />
     </div>
   );
 }
