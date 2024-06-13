@@ -5,4 +5,10 @@
 
 .Meaning .example {
   font-size: 13px;
+  margin-top: 5px;
+}
+@media (max-width: 860px) {
+  .Meaning h3 {
+    font-size: 18px;
+  }
 }
