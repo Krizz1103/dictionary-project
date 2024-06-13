@@ -26,7 +26,7 @@ export default function App() {
             <a
               href="https://app.netlify.com/sites/krizz-dictionary-project/overview"
               target="_blank"
-              el="noreferrer"
+              rel="noreferrer"
             >
               Netlify
             </a>
