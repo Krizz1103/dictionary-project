@@ -1,6 +1,10 @@
 body {
   background: burlywood;
 }
+.App {
+  max-width: 65%;
+  margin: 0 auto;
+}
 
 .App-footer {
   margin-top: 30px;
